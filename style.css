@@ -172,8 +172,9 @@ div.content {
 }
 
 .box{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 5px;
     color: #00374E;
 }
 
